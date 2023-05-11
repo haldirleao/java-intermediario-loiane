@@ -16,7 +16,7 @@
 
 # Curso Java Intermediário
 
-Anotações, materiais de apoio e códigos-fonte enquanto estudava este curso. Iniciado em 11/maio/2023. Concluído em <span style="color: red">dd/mmm/aaaa</span>.
+Anotações, materiais de apoio e códigos-fonte enquanto estudava este curso. Iniciado em 11/maio/2023. Concluído em ~~dd/mmm/aaaa~~.
 
 ## Instrutora: Loiane Groner
 - https://www.linkedin.com/in/loiane
@@ -60,7 +60,7 @@ Exercício proposto:
 - Implemente um método abstrato com a seguinte assinatura **double executarOperacao(double x, double y)**. Cada opção do _Enum_ deve implementar esse método, realizando a operação de acordo com a sua descrição.
 - Escreva um método main para teste que realize todas as operações do _Enum_. Dica: você pode usar o método `values` para iterar o _Enum_ e executar todas as operações.
 
-Código-fonte na aula56_1 <span style="color: red">(src\main\br\com\haldirleao\cursojava\aula56_1_lab)</span>.
+Código-fonte na aula56_1 ~~(src\main\br\com\haldirleao\cursojava\aula56_1_lab)~~.
 
 ### Aula 57 (Classes Wrappers: Introdução)
 
