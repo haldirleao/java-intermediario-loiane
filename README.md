@@ -8,6 +8,12 @@
     - [Aula 56\_1 (_Enums_: Exercício: Calculadora)](#aula-56_1-enums-exercício-calculadora)
     - [Aula 57 (Classes Wrappers: Introdução)](#aula-57-classes-wrappers-introdução)
     - [Aula 58 (_Wrappers: Autoboxing \& Unboxing_)](#aula-58-wrappers-autoboxing--unboxing)
+    - [Aula 59 (Importação Estática: _Static import_)](#aula-59-importação-estática-static-import)
+    - [Aula 60 (Escopo de variáveis)](#aula-60-escopo-de-variáveis)
+    - [Aula 61 (Passagem de parâmetros por valor e por referência)](#aula-61-passagem-de-parâmetros-por-valor-e-por-referência)
+    - [Aula 62 (Varargs)](#aula-62-varargs)
+    - [Aula 63 (`printf`)](#aula-63-printf)
+    - [Aula 64 (Classes aninhadas: internas, locais e anônimas)](#aula-64-classes-aninhadas-internas-locais-e-anônimas)
     - [🚧EM CONSTRUÇÃO🚧](#em-construção)
   - [Materiais de apoio](#materiais-de-apoio)
     - [_Enums_](#enums)
@@ -70,7 +76,72 @@ São as classes que representam os Tipos Primitivos Java.
 
 
 ### Aula 58 (_Wrappers: Autoboxing & Unboxing_)
+- _Autoboxing_: transformação de tipo primitivo em objeto.
+- _Unboxing_: transformação de objeto em tipo primitivo. 
+- Exemplos práticos
 
+### Aula 59 (Importação Estática: _Static import_)
+
+https://en.wikipedia.org/wiki/Static_import
+
+- Exemplo: `import static java.lang.Math.pow`
+- Exemplos práticos
+
+### Aula 60 (Escopo de variáveis)
+
+![Escopo de variáveis. Fonte: Loiane Groner, aula 60](https://drive.google.com/uc?id=132cLBMgSqOuz-kJl1t8WT9gpQ9Ic_ud1)
+
+### Aula 61 (Passagem de parâmetros por valor e por referência)
+
+Discussão sobre a existência, ou não, de passagem por referência na linguagem Java: https://forums.oracle.com/ords/apexds/post/pass-by-reference-or-pass-by-value-9836
+
+![Passagem por valor e referência. Fonte: Loiane Groner, aula 61](https://drive.google.com/uc?id=1YPZMj5MFcZbFnssrna_LOJgM7PHGKfiy)
+
+![Passagem por valor e referência. Fonte: Loiane Groner, aula 61](https://drive.google.com/uc?id=1xDaOVy4aQHMsy-ISdfNGYMgT29ZIu7VG)
+
+![Passagem por valor e referência. Fonte: Loiane Groner, aula 61](https://drive.google.com/uc?id=1ev-nM5e4uVuDfrzLLZjNnZF59OFTWg1A)
+
+![Passagem por valor e referência. Fonte: Loiane Groner, aula 61](https://drive.google.com/uc?id=1qNf-0pb2Xq8IE2OKtjp_BNZDgS9kc7Wt)
+
+### Aula 62 (Varargs)
+
+https://docs.oracle.com/javase/8/docs/technotes/guides/language/varargs.html
+
+https://www.baeldung.com/java-varargs
+
+Exemplo:
+```java
+// usando varargs
+static int soma(Integer... numeros) {
+  int total = 0;
+    for (int num : numeros) {
+      total += num;
+    }
+    return total;
+}
+```
+
+### Aula 63 (`printf`)
+
+`printf` in Java https://dev.to/ritvikdubey27/printf-in-java-4265
+
+https://www.baeldung.com/java-printstream-printf
+
+
+Sintax: 
+```java
+System.out.printf(format, arguments);
+System.out.printf(locale, format, arguments);
+```
+Exemplo:
+```java
+System.out.printf("Hello %s!%n", "World");
+```
+Saída:
+```java
+Hello World!
+```
+### Aula 64 (Classes aninhadas: internas, locais e anônimas)
 ### 🚧EM CONSTRUÇÃO🚧
 
 ## Materiais de apoio
